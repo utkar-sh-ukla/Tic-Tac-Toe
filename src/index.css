@@ -4,7 +4,7 @@ body {
   }
   
   ol, ul {
-    padding-left: 30px;
+    padding-left: 1px;
   }
   
   .board-row:after {
@@ -19,18 +19,19 @@ body {
   
   .square {
     background: #fff;
-    border: 1px solid #999;
+    border: 1px solid #110000;
     float: left;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 100px;
+    font-weight: inherit;
     line-height: 34px;
-    height: 34px;
+    height: 150px;
     margin-right: -1px;
     margin-top: -1px;
+    border-width: thick;
     padding: 0;
     text-align: center;
-    width: 34px;
-  }
+    width: 150px;
+}
   
   .square:focus {
     outline: none;
